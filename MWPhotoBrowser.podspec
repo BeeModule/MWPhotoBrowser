@@ -11,20 +11,20 @@ Pod::Spec.new do |s|
                   Photos can be zoomed and panned, and optional (customisable) captions can be displayed.
                   DESCRIPTION
   s.screenshots = [
-    'https://raw.github.com/mwaterfall/MWPhotoBrowser/master/Screenshots/MWPhotoBrowser1.png',
-    'https://raw.github.com/mwaterfall/MWPhotoBrowser/master/Screenshots/MWPhotoBrowser2.png',
-    'https://raw.github.com/mwaterfall/MWPhotoBrowser/master/Screenshots/MWPhotoBrowser3.png',
-    'https://raw.github.com/mwaterfall/MWPhotoBrowser/master/Screenshots/MWPhotoBrowser4.png',
-    'https://raw.github.com/mwaterfall/MWPhotoBrowser/master/Screenshots/MWPhotoBrowser5.png',
-    'https://raw.github.com/mwaterfall/MWPhotoBrowser/master/Screenshots/MWPhotoBrowser6.png'
+    'https://raw.github.com/BeeModule/MWPhotoBrowser/master/Screenshots/MWPhotoBrowser1.png',
+    'https://raw.github.com/BeeModule/MWPhotoBrowser/master/Screenshots/MWPhotoBrowser2.png',
+    'https://raw.github.com/BeeModule/MWPhotoBrowser/master/Screenshots/MWPhotoBrowser3.png',
+    'https://raw.github.com/BeeModule/MWPhotoBrowser/master/Screenshots/MWPhotoBrowser4.png',
+    'https://raw.github.com/BeeModule/MWPhotoBrowser/master/Screenshots/MWPhotoBrowser5.png',
+    'https://raw.github.com/BeeModule/MWPhotoBrowser/master/Screenshots/MWPhotoBrowser6.png'
   ]
 
-  s.homepage = 'https://github.com/mwaterfall/MWPhotoBrowser'
+  s.homepage = 'https://github.com/BeeModule/MWPhotoBrowser'
   s.author = { 'Michael Waterfall' => 'michaelwaterfall@gmail.com' }
   s.social_media_url = 'https://twitter.com/mwaterfall'
 
   s.source = {
-    :git => 'https://github.com/mwaterfall/MWPhotoBrowser.git',
+    :git => 'https://github.com/BeeModule/MWPhotoBrowser.git',
     :tag => '2.1.2'
   }
   s.platform = :ios, '7.0'
@@ -43,6 +43,6 @@ Pod::Spec.new do |s|
   # SDWebImage
   # 3.7.2 contains bugs downloading local files
   # https://github.com/rs/SDWebImage/issues/1109
-  s.dependency 'SDWebImage', '~> 3.7', '!= 3.7.2'
+  s.dependency 'SDWebImage', '~> 4.1.2'
 
 end
